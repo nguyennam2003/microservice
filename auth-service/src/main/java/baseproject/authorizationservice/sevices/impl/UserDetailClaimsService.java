@@ -20,6 +20,6 @@ public class UserDetailClaimsService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepo.getUserByUsername(username);
 
-        return new UserDetailClaims(user);
+        return null;
     }
 }

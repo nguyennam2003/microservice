@@ -1,0 +1,11 @@
+logs/*
+auth-service/target/*
+gateway-service/target/*
+discovery-service/target/*
+.idea/*
+auth-service/.idea/*
+discovery-service/.idea/*
+gateway-service/.idea/*
+*.iml
+.idea
+logs
